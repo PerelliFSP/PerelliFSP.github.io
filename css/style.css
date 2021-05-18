@@ -19,7 +19,7 @@ h2 {
 	text-transform: uppercase;
 }
 
-.container-fluid {
+#banner {
 	text-align: center;
 	height: 480px;
 	width: 1080px;
@@ -36,7 +36,7 @@ h2 {
 
 }
 
-.container {
+#tarjetas {
 	padding-top: 2em;
 	display: flex;
 	flex-direction: row;
