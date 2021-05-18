@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url(image/banner2.jpg);
+
+* {
+	font-family: Helvetica;
+	font-size: 18px;
+
+}
+
+body {
+	background: url('banner.jpg');
+}
+
+h2 {
+	padding-top: 100px;
+	font-style: bold;
+	font-family: 'EB Garamond', serif;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.container-fluid {
+	text-align: center;
+	height: 480px;
+	width: 1080px;
+	background-size: cover;
+
+	background-image: url('../image/banner2.jpg');
+	background-position: center;
+}
+
+
+.card {
+	width: 200px;
+	height: 150px;
+
+}
+
+.sectionA {
+	padding-top: 2em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+#title1 {
+	font-size: 1em;
+}
