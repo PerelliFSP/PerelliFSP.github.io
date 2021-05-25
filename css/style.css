@@ -23,7 +23,14 @@ footer {
 	background-color: #023e8a;
 	width: 100%;
 	height: 200px;
-	/*grid-area: f;*/
+	margin: 0;
+	
+}
+
+.num {
+	text-decoration: none;
+	color: white;
+	text-transform: bold;
 }
 
 #barra {
@@ -32,52 +39,61 @@ footer {
 	padding: 2px;
 	align-content: left;
 }
-/*
-#cuerpo {
-	display: grid;
-	grid-template-rows: 1fr;
-	grid-template-columns: 700px 500px 300px;
-	grid-template-areas: 
 
-	"h h h h"
-	"t t t t"
-	"f f f f"
-}
-*/
 #banner {
 	background-image: url("../image/banner2.jpg");
     background-size: cover;
     background-position: center;
     width: 100%
-    height: 100%;
-    padding: 150px 0;
+    height: 100vh;
+    padding: 150px;
     text-align: center;
-    /*grid-area: h;
-	text-align: center;
-	padding-top: 3em;
-	background-size: cover;
-	background-image: url("banner2.jpg");
-	background-position: center;
-	*/
-}
-
-
-.card {
-	width: 200px;
-	height: 150px;
-	border-radius: 10px;
 }
 
 #tarjetas {
-	padding-top: 2em;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-bottom: 50px;
-	height: 10em;
-	/*grid-area: t;*/
+	padding: 6em 0em;
+}
+
+.subt {
+	font-family: serif;
+	font-size: 1em;
+	text-align-last: justify;
+	align-content: center;
+}
+
+.pie {
+	padding: 1em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 #title1 {
 	font-size: 1em;
+}
+/*
+#reg {
+	position: absolute;
+	bottom: 10px;
+	font-family: Arial;
+	font-size: 0.5em;
+	color: grey;
+}
+*/
+@media all and (max-width: 640px){
+	#tarjetas {
+		width: 100%;
+		height: 1050px;
+		padding: 3em;
+		margin: 0;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	.card {
+		width: 620px;
+	}
 }
